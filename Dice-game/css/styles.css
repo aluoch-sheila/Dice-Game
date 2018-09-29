@@ -1,16 +1,20 @@
 #dieOne{
   float: left;
-  width: 32px;
-  padding: 50px;
+  width: 72px;
+  padding: 45px;
   font-size: 24px;
-  margin: 15px;
+  margin: 7px;
   border: 2px solid black;
 }
 #dieTwo{
   float: left;
-  width: 32px;
-  padding: 50px;
+  width: 72px;
+  padding: 45px;
   font-size: 24px;
-  margin: 15px;
+  margin: 10px;
   border: 2px solid black;
+}
+
+#firstPlayer{
+  align-items: baseline;
 }

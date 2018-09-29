@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"  type="text/javascript"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
+  <title>Pig Dice</title>
+</head>
+
+<body>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Pig Dice!</h1>
+        <p>
+          <ul>
+        <li>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</li>
+        <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+        <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+        <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+      </ul>
+      </p>
+      </div>
+      <div class="row">
+        <div class="col-sm-5">
+
+          <form class="firstPlayer" id="firstPlayer">
+            <div class="form-group well playOneDiv">
+              <label for="firstPlayer-name">First Player enter your name! </label>
+              <input type="text" class="form-control" id="firstPlayer-name">
+              <button type="submit">Enter</button>
+            </div>
+            <div class="firstPlayerScore well">
+              <h3><span class="firstPlayerName"></span></h3>
+              <button type="button" id="p1button">roll</button>
+              <p>SPIN TOTAL  <span class="p1spin">  </span></p>
+              <button class="p1hold">Hold</button>
+              <p>SCORE   <span class="p1score"></span> </p>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-2">
+          <div class="well">
+            <h2>Your Spin</h2>
+            <h1 class="currentSpin">1</h1>
+          </div>
+          <div class="well">
+            <h4><span class="firstPlayerName"></span></h4>
+            <h2><span class="p1score"></span></h2>
+          </div>
+          <div class="well">
+            <h4><span class="secondPlayerName"></span></h4>
+            <h2><span class="p2score"> </span></h2>
+          </div>
+        </div>
+        <div class="col-sm-5">
+          <form class="secondPlayer" id="secondPlayer">
+            <div class="form-group well playTwoDiv">
+              <label for="secondPlayer-name">Second Player enter your name! </label>
+              <input type="text" class="form-control" id="secondPlayer-name">
+              <button type="submit">Enter</button>
+            </div>
+
+            <div class="secondPlayerScore well">
+              <h3><span class="secondPlayerName"></span></h3>
+              <button type="button" id="p2button">roll</button>
+              <p>SPIN TOTAL <span class="p2spin">  </span></p>
+              <button class="p2hold">Hold</button>
+              <p>SCORE   <span class="p2score">  </span> </p>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </body>
+
+</html>
