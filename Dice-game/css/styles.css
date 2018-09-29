@@ -11,7 +11,7 @@
   border:2px solid black;
   padding:25px;
   text-align: center;
-  background-color: yellowgreen;
+  background-color: grey;
   margin-top: 12%;
   margin-left: 30%;
   margin-right:30%;
@@ -20,7 +20,7 @@
   border:2px solid black;
   padding:25px;
   text-align: center;
-  background-color: yellowgreen;
+  background-color: grey;
   margin-top: 12%;
   margin-left: 30%;
   margin-right:30%;
@@ -29,4 +29,9 @@
   color:blue;
   font-size: 2em;
   font-style: normal;
+}
+.spin{
+  color:blue;
+  font-size: 2em;
+  font-style: italic;
 }
