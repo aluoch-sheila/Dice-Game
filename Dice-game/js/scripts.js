@@ -1,4 +1,3 @@
-
 function Player(name, spin, score) {
   this.name = name;
   this.spin = spin;
