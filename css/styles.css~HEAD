@@ -1,0 +1,40 @@
+.container{
+ background-image: url("http://37.media.tumblr.com/cd0e2400d77e1e2d6f51c2ef110beec1/tumblr_n8viv1XQOj1sjmeczo1_500.gif")
+}
+.container2{
+ background-image: url("https://www.tcsjohnhuxley.com/wp-content/uploads/2017/05/Dice-Duel-860x600-860x600.jpg")
+}
+.head{
+ color: maroon;
+}
+.first{
+ border:2px solid black;
+ padding:25px;
+ text-align: center;
+ background-color: grey;
+ margin-top: 12%;
+ margin-left: 30%;
+ margin-right:30%;
+}
+.second{
+ border:2px solid black;
+ padding:25px;
+ text-align: center;
+ background-color: grey;
+ margin-top: 12%;
+ margin-left: 30%;
+ margin-right:30%;
+}
+.name{
+ color:blue;
+ font-size: 2em;
+ font-style: normal;
+}
+.spin{
+ color:blue;
+ font-size: 2em;
+ font-style: italic;
+}
+#start{
+ color:white;
+}
